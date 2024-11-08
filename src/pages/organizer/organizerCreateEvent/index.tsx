@@ -43,7 +43,7 @@ function OrganizerCreateEvent() {
       <div className='flex-row h-auto w-full mt-10 content-center justify-center'>
         <div className="flex items-center justify-center w-full md:w-full">
           <div className="grid justify-center grid-cols-1 md:grid-cols-2 gap-6 w-3/4 px-8">
-            <div className="font-semibold mb-8">
+            <div className="font-semibold mb-3">
               <input
                 id="name"
                 type="text"
@@ -52,7 +52,7 @@ function OrganizerCreateEvent() {
                 placeholder='Event Name'
               />
             </div>
-            <div className="font-semibold mb-8">
+            <div className="font-semibold mb-3">
               <input
                 id="date"
                 type="text"
@@ -61,7 +61,7 @@ function OrganizerCreateEvent() {
                 placeholder='Date'
               />
             </div>
-            <div className="font-semibold mb-8">
+            <div className="font-semibold mb-3">
               <input
                 id="time"
                 type="text"
@@ -70,7 +70,7 @@ function OrganizerCreateEvent() {
                 placeholder='Time'
               />
             </div>
-            <div className="font-semibold mb-8">
+            <div className="font-semibold mb-3">
               <input
                 id="location"
                 type="text"
@@ -79,7 +79,7 @@ function OrganizerCreateEvent() {
                 placeholder='Location'
               />
             </div>
-            <div className="font-semibold mb-8">
+            <div className="font-semibold mb-3">
               <input
                 id="ticket-price"
                 type="text"
@@ -88,7 +88,7 @@ function OrganizerCreateEvent() {
                 placeholder='Ticket Price'
               />
             </div>
-            <div className="font-semibold mb-8">
+            <div className="font-semibold mb-3">
               <input
                 id="artists"
                 type="text"
@@ -118,7 +118,7 @@ function OrganizerCreateEvent() {
           </div>
         </div>
 
-        <div className="flex items-center justify-center mt-5">
+        <div className="flex items-center justify-center mt-3">
           <div className="text-lg font-bold flex items-center justify-end w-3/4">
             <div className="font-semibold w-10/12 mb-8 flex justify-end items-bottom">
               <button

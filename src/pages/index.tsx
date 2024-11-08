@@ -39,7 +39,7 @@ export default function LandingPage() {
                   className="object-contain"
                 />
               </div>
-              <div className="text-center">
+              <div className="">
                 <div className="mt-3 text-xl font-semibold">AHAS YAATHRA</div>
                 <div className="text-sm font-semibold">9, October 2024</div>
                 <div className="text-sm font-semibold">7.00 pm</div>
@@ -62,7 +62,7 @@ export default function LandingPage() {
                   className="object-contain"
                 />
               </div>
-              <div className="text-center">
+              <div className="">
                 <div className="mt-3 text-xl font-semibold">AHAS YAATHRA</div>
                 <div className="text-sm font-semibold">9, October 2024</div>
                 <div className="text-sm font-semibold">7.00 pm</div>

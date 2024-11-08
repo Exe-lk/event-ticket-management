@@ -11,7 +11,7 @@ function OrganizerHome() {
     router.push("/organizer/organizerHome");
   };
   const OrgViewEvent = async () => {
-    router.push("/organizer/organizerDashboard");
+    // router.push("/organizer/organizerDashboard");
   };
   const OrgCreateEvent = async () => {
     router.push("/organizer/organizerCreateEvent");
@@ -49,11 +49,11 @@ function OrganizerHome() {
         </div>
       </div>
 
-      <div className='flex-row h-auto w-full mt-10 flex content-center justify-center'>
-        <div className="flex flex-wrap justify-center w-full">
-        {[1, 2, 3].map((item, index) => (
-            <div key={index} className="w-full sm:w-1/3 ps-5 pe-5">
-              <div className="text-lg font-bold">
+      <div className='flex flex-col sm:flex-row mt-10 justify-center items-center'>
+        <div className="flex flex-wrap justify-between w-full sm:w-10/12">
+          {[1, 2, 3].map((item, index) => (
+            <div key={index} className="w-full sm:w-1/3 p-4">
+              <div className="text-lg font-bold flex-row justify-center content-center">
                 <div className="flex justify-center items-center">
                   <Image
                     src={image1}
@@ -63,28 +63,31 @@ function OrganizerHome() {
                     className="object-contain"
                   />
                 </div>
-                <div className="flex justify-start items-center mt-5">
-                  <span className="text-xl font-semibold">AHAS YAATHRA</span>
-                </div>
-                <div className="flex justify-start items-center">
-                  <span className="text-sm font-semibold">9, October 2024</span>
-                </div>
-                <div className="flex justify-between items-center mt-4">
-                  <span className="text-sm font-semibold">7.00 pm</span>
-                  <a
-                    className="text-black hover:text-white px-5 py-1 rounded-xl text-xs text-center font-bold"
-                    style={{ backgroundColor: "#00C853" }}
-                    onClick={OrgViewEvent}
-                  >
-                    View
-                  </a>
+                <div className='flex justify-center content-center'>
+                  <div className='flex-row w-3/4'>
+                    <div className="flex justify-start items-center mt-5">
+                      <span className="text-xl font-semibold">AHAS YAATHRA</span>
+                    </div>
+                    <div className="flex justify-start items-center mt-1">
+                      <span className="text-sm font-semibold">9, October 2024</span>
+                    </div>
+                    <div className="flex justify-between items-center mt-2">
+                      <span className="text-sm font-semibold">7.00 pm</span>
+                      <a
+                        className="text-black hover:text-white px-8 py-1 rounded-xl text-xs text-center font-bold"
+                        style={{ backgroundColor: "#00C853" }}
+                        // onClick={OrgViewEvent}
+                      >
+                        View
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           ))}
         </div>
       </div>
-
     </main>
   );
 }

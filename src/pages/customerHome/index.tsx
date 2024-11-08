@@ -53,10 +53,10 @@ function CustomerHome() {
       </div>
 
       <div className='flex flex-col sm:flex-row mt-10 justify-center items-center'>
-        <div className="flex flex-wrap justify-between w-full sm:w-3/4">
+        <div className="flex flex-wrap justify-between w-full sm:w-10/12">
           {[1, 2, 3].map((item, index) => (
             <div key={index} className="w-full sm:w-1/3 p-4">
-              <div className="text-lg font-bold">
+              <div className="text-lg font-bold flex-row justify-center content-center">
                 <div className="flex justify-center items-center">
                   <Image
                     src={image1}
@@ -66,21 +66,25 @@ function CustomerHome() {
                     className="object-contain"
                   />
                 </div>
-                <div className="flex justify-start items-center mt-5">
-                  <span className="text-xl font-semibold">AHAS YAATHRA</span>
-                </div>
-                <div className="flex justify-start items-center">
-                  <span className="text-sm font-semibold">9, October 2024</span>
-                </div>
-                <div className="flex justify-between items-center mt-4">
-                  <span className="text-sm font-semibold">7.00 pm</span>
-                  <a
-                    className="text-black hover:text-white px-3 py-1 rounded-xl text-xs text-center font-bold"
-                    style={{ backgroundColor: "#00C853" }}
-                    onClick={gotoBuyTickets}
-                  >
-                    BUY NOW
-                  </a>
+                <div className='flex justify-center content-center'>
+                  <div className='flex-row w-3/4'>
+                    <div className="flex justify-start items-center mt-5">
+                      <span className="text-xl font-semibold">AHAS YAATHRA</span>
+                    </div>
+                    <div className="flex justify-start items-center mt-1">
+                      <span className="text-sm font-semibold">9, October 2024</span>
+                    </div>
+                    <div className="flex justify-between items-center mt-2">
+                      <span className="text-sm font-semibold">7.00 pm</span>
+                      <a
+                        className="text-black hover:text-white px-3 py-1 rounded-xl text-xs text-center font-bold"
+                        style={{ backgroundColor: "#00C853" }}
+                        onClick={gotoBuyTickets}
+                      >
+                        BUY NOW
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

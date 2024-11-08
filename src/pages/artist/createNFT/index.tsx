@@ -55,61 +55,73 @@ function CreateNFT() {
           <div className="flex flex-col sm:flex-row justify-between mb-10">
             <div className="flex justify-between font-semibold w-full sm:w-5/12 mb-4 sm:mb-0">
               <span className="p-2">NFT Name</span>
-              <input
-                id="name"
-                type="text"
-                required
-                className="w-full sm:w-1/2 px-3 pt-2 pb-2 text-black shadow-sm border-b-2"
-              />
+              <div className='w-2/3 sm:w-1/2 px-3 pt-2 pb-2'>
+                <input
+                  id="name"
+                  type="text"
+                  required
+                  className="w-full text-black shadow-sm border-b-2"
+                />
+              </div>
             </div>
             <div className="flex justify-between font-semibold w-full sm:w-5/12">
               <span className="p-2">NFT Type</span>
-              <input
-                id="type"
-                type="text"
-                required
-                className="w-full sm:w-1/2 px-3 pt-2 pb-2 text-black shadow-sm border-b-2"
-              />
+              <div className='w-2/3 sm:w-1/2 px-3 pt-2 pb-2'>
+                <input
+                  id="type"
+                  type="text"
+                  required
+                  className="w-full text-black shadow-sm border-b-2"
+                />
+              </div>
             </div>
           </div>
           <div className="flex flex-col sm:flex-row justify-between mb-10">
             <div className="flex justify-between font-semibold w-full sm:w-5/12 mb-4 sm:mb-0">
               <span className="p-2">Creator</span>
-              <input
-                id="creator"
-                type="text"
-                required
-                className="w-full sm:w-1/2 px-3 pt-2 pb-2 text-black shadow-sm border-b-2"
-              />
+              <div className='w-2/3 sm:w-1/2 px-3 pt-2 pb-2'>
+                <input
+                  id="creator"
+                  type="text"
+                  required
+                  className="w-full text-black shadow-sm border-b-2"
+                />
+              </div>
             </div>
             <div className="flex justify-between font-semibold w-full sm:w-5/12">
               <span className="p-2">Price</span>
-              <input
-                id="price"
-                type="text"
-                required
-                className="w-full sm:w-1/2 px-3 pt-2 pb-2 text-black shadow-sm border-b-2"
-              />
+              <div className='w-2/3 sm:w-1/2 px-3 pt-2 pb-2'>
+                <input
+                  id="price"
+                  type="text"
+                  required
+                  className="w-full text-black shadow-sm border-b-2"
+                />
+              </div>
             </div>
           </div>
           <div className="flex flex-col sm:flex-row justify-between mb-10">
             <div className="flex justify-between font-semibold w-full sm:w-5/12 mb-4 sm:mb-0">
               <span className="p-2">Token ID</span>
-              <input
-                id="tokenID"
-                type="text"
-                required
-                className="w-full sm:w-1/2 px-3 pt-2 pb-2 text-black shadow-sm border-b-2"
-              />
+              <div className='w-2/3 sm:w-1/2 px-3 pt-2 pb-2'>
+                <input
+                  id="tokenID"
+                  type="text"
+                  required
+                  className="w-full text-black shadow-sm border-b-2"
+                />
+              </div>
             </div>
             <div className="flex justify-between font-semibold w-full sm:w-5/12">
               <span className="p-2">Description</span>
-              <input
-                id="description"
-                type="text"
-                required
-                className="w-full sm:w-1/2 px-3 pt-2 pb-2 text-black shadow-sm border-b-2"
-              />
+              <div className='w-2/3 sm:w-1/2 px-3 pt-2 pb-2'>
+                <input
+                  id="description"
+                  type="text"
+                  required
+                  className="w-full text-black shadow-sm border-b-2"
+                />
+              </div>
             </div>
           </div>
 
